@@ -1,0 +1,28 @@
+-e 
+=== LIVING DATA 2025 SCHEDULE PREVIEW ===
+
+id,title,time_beg,time_end,date,day,location,type,speaker,session_id
+7001427,Alice Hughes  (University of Hong Kong · Hong Kong),09:00,09:10,2025-10-21,Tuesday,Ballroom,oral,Alice Hughes,
+5074617,Lydia Jennings  (Dartmouth College · United States),09:45,09:55,2025-10-21,Tuesday,Ballroom,oral,Lydia Jennings,
+7020191,From Observation to Impact: Co-created tools emphasize,11:15,11:25,2025-10-21,Tuesday,Ballroom B1,oral,Elizabeth Lawrence,6803154
+7020775,Using iNaturalist to restore habitat for biodiversity: a vision,11:15,11:25,2025-10-21,Tuesday,Ballroom B2,oral,Carrie Seltzer,6798855
+7018497,The clock is ticking for registering biodiversity [meta]data,11:15,11:25,2025-10-21,Tuesday,Caldas,oral,Christophe  Van Neste,6797423
+6960773,galaxias: An R & Python toolset for sharing biodiversity data,11:15,11:25,2025-10-21,Tuesday,Cauca,oral,Peggy Newman,
+7013733,Downscaling the area of habitat mapping approach to,11:20,11:30,2025-10-21,Tuesday,Ballroom A,oral,Wenxin Yang,6803272
+7018520,Towards building a national genetic reference library for,11:20,11:30,2025-10-21,Tuesday,Tolima,oral,Liliana Ballesteros-Mejia,6798929
+7020681,Mapping the Future: Examining 25 Years of U.S.,11:20,11:30,2025-10-21,Tuesday,Valle,oral,Stephen Formel,6799243
+7011394,Collective science to inform global ocean protections,11:25,11:35,2025-10-21,Tuesday,Ballroom B1,oral,William Oestreich,6803154
+7028498,Who’s Who? Identifying “species” for regional biodiversity,11:25,11:35,2025-10-21,Tuesday,Tolima,oral,Regina Wetzer,6798929
+7015878,Integrating Remote Sensing and Biological Records,11:30,11:40,2025-10-21,Tuesday,Ballroom A,oral,Luis Hernando Romero Jimenez,6803272
+7009778,A systematic review of how iNaturalist is contributing to,11:30,11:40,2025-10-21,Tuesday,Ballroom B2,oral,Corey Callaghan,6798855
+7018712,Implementing FAIR Digital Objects for Molecular and,11:30,11:40,2025-10-21,Tuesday,Tolima,oral,Sharif Islam,6798929
+7020361,So beautiful yet highly poached: The European goldfinch,11:30,11:40,2025-10-21,Tuesday,Caldas,oral,Gila Kahila BarGal,6797423
+7010550,A New Future for the Biodiversity Heritage Library: from,11:30,11:40,2025-10-21,Tuesday,Valle,oral,Nicole Kearney,6799243
+7020627,SPACEWHALE: Using satellite imagery to survey whales in,11:35,11:45,2025-10-21,Tuesday,Ballroom B1,oral,Julika Voß,6803154
+7023203,"Integrating Expert Knowledge, Land Cover Data, and Post-",11:40,11:50,2025-10-21,Tuesday,Ballroom A,oral,Victor Gutierrez-Velez,6803272
+7015783,From Pixels to Policy: Piloting iNaturalist as a Scalable,11:40,11:50,2025-10-21,Tuesday,Ballroom B2,oral,Pasindu Dilshan  Abegunawardhana,6798855
+-e 
+
+[...273 events total...]
+
+Full data available in living_data_schedule.csv

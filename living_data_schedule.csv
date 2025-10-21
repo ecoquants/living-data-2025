@@ -1,0 +1,274 @@
+id,title,time_beg,time_end,date,day,location,type,speaker,session_id
+7001427,Alice Hughes  (University of Hong Kong · Hong Kong),09:00,09:10,2025-10-21,Tuesday,Ballroom,oral,Alice Hughes,
+5074617,Lydia Jennings  (Dartmouth College · United States),09:45,09:55,2025-10-21,Tuesday,Ballroom,oral,Lydia Jennings,
+7020191,From Observation to Impact: Co-created tools emphasize,11:15,11:25,2025-10-21,Tuesday,Ballroom B1,oral,Elizabeth Lawrence,6803154
+7020775,Using iNaturalist to restore habitat for biodiversity: a vision,11:15,11:25,2025-10-21,Tuesday,Ballroom B2,oral,Carrie Seltzer,6798855
+7018497,The clock is ticking for registering biodiversity [meta]data,11:15,11:25,2025-10-21,Tuesday,Caldas,oral,Christophe  Van Neste,6797423
+6960773,galaxias: An R & Python toolset for sharing biodiversity data,11:15,11:25,2025-10-21,Tuesday,Cauca,oral,Peggy Newman,
+7013733,Downscaling the area of habitat mapping approach to,11:20,11:30,2025-10-21,Tuesday,Ballroom A,oral,Wenxin Yang,6803272
+7018520,Towards building a national genetic reference library for,11:20,11:30,2025-10-21,Tuesday,Tolima,oral,Liliana Ballesteros-Mejia,6798929
+7020681,Mapping the Future: Examining 25 Years of U.S.,11:20,11:30,2025-10-21,Tuesday,Valle,oral,Stephen Formel,6799243
+7011394,Collective science to inform global ocean protections,11:25,11:35,2025-10-21,Tuesday,Ballroom B1,oral,William Oestreich,6803154
+7028498,Who’s Who? Identifying “species” for regional biodiversity,11:25,11:35,2025-10-21,Tuesday,Tolima,oral,Regina Wetzer,6798929
+7015878,Integrating Remote Sensing and Biological Records,11:30,11:40,2025-10-21,Tuesday,Ballroom A,oral,Luis Hernando Romero Jimenez,6803272
+7009778,A systematic review of how iNaturalist is contributing to,11:30,11:40,2025-10-21,Tuesday,Ballroom B2,oral,Corey Callaghan,6798855
+7018712,Implementing FAIR Digital Objects for Molecular and,11:30,11:40,2025-10-21,Tuesday,Tolima,oral,Sharif Islam,6798929
+7020361,So beautiful yet highly poached: The European goldfinch,11:30,11:40,2025-10-21,Tuesday,Caldas,oral,Gila Kahila BarGal,6797423
+7010550,A New Future for the Biodiversity Heritage Library: from,11:30,11:40,2025-10-21,Tuesday,Valle,oral,Nicole Kearney,6799243
+7020627,SPACEWHALE: Using satellite imagery to survey whales in,11:35,11:45,2025-10-21,Tuesday,Ballroom B1,oral,Julika Voß,6803154
+7023203,"Integrating Expert Knowledge, Land Cover Data, and Post-",11:40,11:50,2025-10-21,Tuesday,Ballroom A,oral,Victor Gutierrez-Velez,6803272
+7015783,From Pixels to Policy: Piloting iNaturalist as a Scalable,11:40,11:50,2025-10-21,Tuesday,Ballroom B2,oral,Pasindu Dilshan  Abegunawardhana,6798855
+7014370,Power and Policy: Simulating GBiOS and the impacts of,11:40,11:50,2025-10-21,Tuesday,Valle,oral,Andrew Gonzalez,6799243
+7018632,Opening new frontiers with near-real time biological ocean data,11:45,11:55,2025-10-21,Tuesday,Ballroom B1,oral,Jonathan Pye,6803154
+7020991,Harnessing iNaturalist to Test Eyespot Mimicry in South,11:45,11:55,2025-10-21,Tuesday,Ballroom B2,oral,Chandra Earl,6798855
+7003826,"A BOLD view of DNA barcodes: vectors, trees, and context",11:45,11:55,2025-10-21,Tuesday,Tolima,oral,Roderic Page,6798929
+7012767,A metric-agnostic framework for multispecies presence-,11:45,11:55,2025-10-21,Tuesday,Caldas,oral,Sébastien Gigot--Léandri,6797423
+7020109,Software co-design between end users and developers,11:50,12:00,2025-10-21,Tuesday,Ballroom A,oral,Mary Blair,6803272
+7016226,iNaturalist como herramienta de ciencia participativa,11:50,12:00,2025-10-21,Tuesday,Ballroom B2,oral,Beatriz Helena Mojica Figueroa,6798855
+7020125,It Takes a Network: Building Biodiversity Knowledge,11:50,12:00,2025-10-21,Tuesday,Valle,oral,Sandra Emry,6799243
+7020127,Leveraging Animal Movement Data for Global Marine,11:55,12:05,2025-10-21,Tuesday,Ballroom B1,oral,Authors,6803154
+7019965,A High-Resolution Biodiversity Mapping Platform for,11:55,12:05,2025-10-21,Tuesday,Caldas,oral,Rémi Palard,6797423
+7020992,Alas Seguras: una herramienta para orientar decisiones de,12:00,12:10,2025-10-21,Tuesday,Ballroom A,oral,Valentina Grisales Betancur,6803272
+7019960,Phenology at a Native Plant Nursery: Phenology as one,12:00,12:10,2025-10-21,Tuesday,Ballroom B2,oral,Gail Baker,6798855
+7011476,UNITE: Managing and communicating eukaryotic,12:00,12:10,2025-10-21,Tuesday,Tolima,oral,Kessy Abarenkov,6798929
+7020042,Planning for community-driven enhancement of,12:00,12:10,2025-10-21,Tuesday,Valle,oral,Erica Krimmel,6799243
+7021024,GEDI Viz App: Vegetation structure visualization and,12:05,12:15,2025-10-21,Tuesday,Ballroom A,oral,Ivan Gonzalez,6803272
+7020675,Ocean data application for biodiversity inclusive Marine,12:05,12:15,2025-10-21,Tuesday,Ballroom B1,oral,Silas Principe,6803154
+7020239,Wiki loves iNaturalist: how Wikimedians integrate iNaturalist,12:05,12:15,2025-10-21,Tuesday,Ballroom B2,oral,Tiago Lubiana,6798855
+7023194,Evaluating the impact of NASA-Supported Biodiversity,12:10,12:20,2025-10-21,Tuesday,Ballroom A,oral,Victor H Gutierrez-Velez,6803272
+7020066,Fifteen years of BioDiversity4All - building a national citizen,12:10,12:20,2025-10-21,Tuesday,Ballroom B2,oral,Patrícia  Tiago,6798855
+7018658,Individual-Based Value Assessment of Biodiversity in Policy,12:10,12:20,2025-10-21,Tuesday,Caldas,oral,Sandra Rousseau,6797423
+7018607,Strengthening Biodiversity Data Infrastructure with,12:10,12:20,2025-10-21,Tuesday,Valle,oral,Simon Beauvillier,6799243
+7020909,eDNA Expeditions -- Scaling Biodiversity Monitoring,12:15,12:25,2025-10-21,Tuesday,Ballroom B1,oral,Saara Suominen,6803154
+7020329,Integrating DNA Reference Data and Molecular Taxon,12:15,12:25,2025-10-21,Tuesday,Tolima,oral,Tobias Frøslev,6798929
+7017424,PlantCLEF 2025: advancing AI-based multi-Species,12:20,12:30,2025-10-21,Tuesday,Caldas,oral,Giulio Martellucci,6797423
+7019772,Dotting the connections: using agent-based models to link,12:25,12:35,2025-10-21,Tuesday,Ballroom B1,oral,Lars O. Mortensen,6803154
+7020914,"The eDNAqua-Plan proposal towards a future of federated,",12:30,12:40,2025-10-21,Tuesday,Tolima,oral,Emilie Boulanger,6798929
+7014491,Challenges in using AI-based citizen-generated plant,12:30,12:40,2025-10-21,Tuesday,Caldas,oral,Pierre Bonnet,6797423
+6796330,One Year of Progress with the GBIF Metabarcoding Data,14:00,14:10,2025-10-21,Tuesday,Ballroom B2,oral,Tobias Frøslev,
+6802864,Environment90m - globally standardized environmental,14:05,14:15,2025-10-21,Tuesday,Ballroom B1,oral,Jaime Ricardo Garcia Marquez,
+7020532,Unlocking Biodiversity Data Use in Asia: Lessons from,14:05,14:15,2025-10-21,Tuesday,Valle,oral,Jerome Chie-Jen Ko,6799127
+6798937,From Observations to Interactions: iNaturalist and the,14:10,14:20,2025-10-21,Tuesday,Ballroom A,oral,Carrie Seltzer,
+6799145,eBird Status and Trends: leveraging model ensembles to,14:10,14:20,2025-10-21,Tuesday,Caldas,oral,Tom Auer,
+7020063,A grammar towards operationalization of Essential,14:10,14:20,2025-10-21,Tuesday,Cauca,oral,Guillaume Body,6803214
+7011575,Building a Bridge for Data Sharing: Practical Experiences,14:20,14:30,2025-10-21,Tuesday,Valle,oral,Jin-Ying Lee,6799127
+7020394,Tracing the impact of a national observatory in biodiversity,14:20,14:30,2025-10-21,Tuesday,Cauca,oral,Christine M. Laney,6803214
+7020247,Scaling science to action: a framework to deliver defensible,14:30,14:40,2025-10-21,Tuesday,Cauca,panel,Viviana Ruiz-Gutierrez,6803214
+7021041,Recent Trends of Biodiversity Information in Japan,14:35,14:45,2025-10-21,Tuesday,Valle,oral,Showtaro Kakizoe,6799127
+7015017,Realising the potential of interoperable data products to,14:40,14:50,2025-10-21,Tuesday,Cauca,oral,Tom Webb,6803214
+7018615,Can we use the Camera Trap Data Package standard for,14:42,14:52,2025-10-21,Tuesday,Cauca,oral,Sanne Govaert,6799326
+7020578,Constraints and Avenues of Bugs Distribution Modelling in,14:50,15:00,2025-10-21,Tuesday,Valle,oral,Mamta Sharma,6799127
+7020577,Harnessing Citizen Science for Urban Biodiversity: Insights,14:55,15:05,2025-10-21,Tuesday,Valle,oral,Ashwin A,6799127
+7005087,Disseminating citizen science data in India - a case study of,15:00,15:10,2025-10-21,Tuesday,Valle,oral,Geetha Ramaswami,6799127
+7018620,Developing Species Population EBVs by Standardizing,16:05,16:15,2025-10-21,Tuesday,Valle,oral,Tom Auer,6803288
+7020826,"Production, delivery, and use of Global Species Population",16:20,16:30,2025-10-21,Tuesday,Valle,oral,Walter Jetz,6803288
+7020012,Biodiversity Monitoring Strategy for Chile: Leveraging,16:30,16:40,2025-10-21,Tuesday,Valle,oral,Juan Saez-Hidalgo,6803288
+7020137,Expanding Wallace EcoMod to calculate biodiversity,16:35,16:45,2025-10-21,Tuesday,Valle,oral,Mary Blair,6803288
+7020619,Delivering 1km resolution global species distribution EBV:,17:05,17:15,2025-10-21,Tuesday,Valle,oral,Beth Gerstner,6803288
+7108573,María Cecilia Londoño Murcia,08:30,08:40,2025-10-22,Wednesday,Ballroom,oral,María Cecilia Londoño Murcia,
+7020847,Stanley Blum  (Biodiversity Information Standards (TDWG) · United States),08:45,08:55,2025-10-22,Wednesday,Ballroom,oral,Stanley Blum,
+7004420,Sabina Leonelli  (Technical University of Munich · Germany),09:00,09:10,2025-10-22,Wednesday,Ballroom,oral,Sabina Leonelli,
+6799056,"Overcoming challenges in biodiversity modelling: data,",10:45,10:55,2025-10-22,Wednesday,Ballroom B2,oral,Natalie Briscoe,
+6798638,Mapping What Matters: Foundational Ecosystem Data for,10:50,11:00,2025-10-22,Wednesday,Tolima,oral,David Patterson,
+6788879,Biodiversity Knowledge Hub: Bridging Research,10:50,11:00,2025-10-22,Wednesday,Caldas,oral,Christos  Arvanitidis,
+7020796,Open knowledge for all: connecting initiatives with diverse,10:50,11:00,2025-10-22,Wednesday,Valle,oral,Anabela Plos,6787919
+6798479,BID picture thinking drives increased biodiversity capacity,10:52,11:02,2025-10-22,Wednesday,Ballroom B1,oral,Maheva Bagard Laursen,
+6798502,Next-generation AI workflows for the sensor data deluge,10:55,11:05,2025-10-22,Wednesday,Ballroom A,oral,Laurens Hogeweg,
+7020811,Variety is the spice of life: Leveraging Wikidata for,11:00,11:10,2025-10-22,Wednesday,Valle,oral,Sarah Brinkley,6787919
+6799422,The CARE Data Maturity Model,11:00,11:10,2025-10-22,Wednesday,Cauca,oral,Cas Sedran-Price,
+7020500,Wikibase to the rescue? Exploring the use of Wikibase to,11:10,11:20,2025-10-22,Wednesday,Valle,oral,Jason Best,6787919
+7014694,From Specimens to Statements: Connecting Biodiversity,11:20,11:30,2025-10-22,Wednesday,Valle,oral,Gary Motz,6787919
+7010239,Botanical cross-border connections unveiled through,11:30,11:40,2025-10-22,Wednesday,Valle,oral,Giulia Micai,6787919
+7011372,Integrating research expedition data from the Biodiversity,11:40,11:50,2025-10-22,Wednesday,Valle,oral,SIOBHAN LEACHMAN,6787919
+7020451,Towards a Museum Knowledge Graph: Measuring the,11:50,12:00,2025-10-22,Wednesday,Valle,oral,Sabine von Mering,6787919
+7020185,Linking Biodiversity Literature and Data: Persistent Identifier,12:00,12:10,2025-10-22,Wednesday,Valle,oral,Mike Lichtenberg,6787919
+7010913,Using links from wikis to help discover content in the,12:10,12:20,2025-10-22,Wednesday,Valle,oral,Roderic Page,6787919
+7013309,The impact of the BHL-Wiki working group in making,12:20,12:30,2025-10-22,Wednesday,Valle,oral,Giovanna Fontenelle,6787919
+7020711,The Disentis Roadmap: A decadal roadmap for liberating,14:00,16:00,2025-10-22,Wednesday,Ballroom B2,symposium,Donat Agosti,6802499
+7015627,Bridging Scales and Borders: biodiversity variables,14:00,14:10,2025-10-22,Wednesday,Valle,oral,Jean-Michel Lord,6798633
+7018482,Towards a Common Language for Digital Specimens:,14:05,14:15,2025-10-22,Wednesday,Ballroom A,oral,Sam Leeflang,6786653
+7020523,The road to interoperability: finding common ground,14:05,14:15,2025-10-22,Wednesday,Ballroom B1,oral,Kelsey Huelsman,6799373
+7020182,Beyond Species Occurrences: Harnessing eMoF Data for,14:05,14:15,2025-10-22,Wednesday,Tolima,oral,Elizabeth Lawrence,6803114
+7020534,Harmonising systematic survey Observations : Applications,14:10,14:20,2025-10-22,Wednesday,Ballroom B1,oral,Siddeswara Guru,6799373
+7016784,"Biodiversity literature after Disentis: FAIR, AI-assisted, XML-",14:10,14:20,2025-10-22,Wednesday,Ballroom B2,oral,Laurence Bénichou,6802499
+7010101,Mapping Your Neighbourhood Avifauna (MYNA):,14:15,14:25,2025-10-22,Wednesday,Ballroom B1,oral,Sanjeev Menon,6799373
+7013240,Applying regionally developed SDMs to international,14:15,14:25,2025-10-22,Wednesday,Valle,oral,Brandon  Allen,6798633
+7018666,Linking species and habitat observations: Cross-Thematic,14:17,14:27,2025-10-22,Wednesday,Tolima,oral,Ville Karvinen,6803114
+7016607,Building and Serving FAIR Terms and Vocabularies for open,14:20,14:30,2025-10-22,Wednesday,Ballroom A,oral,Sharif Islam,6786653
+7020425,Ship to shelf: Scripps Oceanography’s Pelagic Invertebrate,14:20,14:30,2025-10-22,Wednesday,Ballroom B1,oral,Linsey M. Sala,6799373
+7002409,Evidence Mapping in Support of a Global Assessment of,14:20,14:30,2025-10-22,Wednesday,Ballroom B2,oral,Davnah Urbach,6802499
+7015839,Translating ecological data to advance biodiversity data,14:25,14:35,2025-10-22,Wednesday,Ballroom B1,oral,Kelsey Yule,6799373
+7019928,Bridging biodiversity data: an ontology-driven approach,14:29,14:39,2025-10-22,Wednesday,Tolima,oral,Martina Pulieri,6803114
+7020574,What is the status of global digitisation? MIDS as an,14:30,14:40,2025-10-22,Wednesday,Ballroom A,oral,Elspeth Haston,6786653
+7020088,Tracking Year-over-Year Forest Dynamics at SJER Using,14:30,14:35,2025-10-22,Wednesday,Ballroom B1,lightning,Kristen (Kit) Lewers,6799373
+7020784,From Dust to Data: Mobilizing Biodiversity Data from,14:30,14:40,2025-10-22,Wednesday,Ballroom B2,oral,Britt Andermann,6802499
+7018775,Linking Biodiversity and Well-Being: A Case Study in,14:30,14:40,2025-10-22,Wednesday,Valle,oral,Vincent Beauregard,6798633
+7007581,Beyond spatial bias: Understanding the colonial legacies,14:35,14:45,2025-10-22,Wednesday,Ballroom B1,oral,Melissa Chapman,6799373
+7014440,From literature to biodiversity data: mining arthropod,14:35,14:45,2025-10-22,Wednesday,Ballroom B2,oral,Robert Waterhouse,6802499
+7018527,Connecting Sound and Life: Integrating Noise and,14:40,14:50,2025-10-22,Wednesday,Ballroom B1,oral,Carlos Pinto,6799373
+7018596,Enhancing Access to Biodiversity Knowledge through,14:40,14:50,2025-10-22,Wednesday,Ballroom B2,oral,Maria-Emilia Rodriguez-Cuicas,6802499
+7020591,Traits Thesaurus: a semantic artefact to harmonise data and,14:41,14:51,2025-10-22,Wednesday,Tolima,oral,Ilaria Rosati,6803114
+7020049,Harmonization of protocols across scales: Lessons learnt,14:42,16:42,2025-10-22,Wednesday,Valle,workshop,Guillaume Body,6798633
+7012924,MIDS in practice: Comparing specimen digitisation levels,14:45,14:55,2025-10-22,Wednesday,Ballroom A,oral,Mathias Dillen,6786653
+7020831,Developing an open and participatory literature data,14:45,14:55,2025-10-22,Wednesday,Ballroom B2,oral,Nicky Nicolson,6802499
+7020897,Mobilizing biodiversity data hidden in centuries old written,14:53,15:03,2025-10-22,Wednesday,Tolima,oral,Laetitia Navarro,6803114
+7001210,Compound Specimen Model,14:55,15:05,2025-10-22,Wednesday,Ballroom A,oral,Ben Norton,6786653
+7015032,"The roles of the Biodiversity Heritage Library, Wikidata,",14:55,15:05,2025-10-22,Wednesday,Ballroom B2,oral,Roderic Page,6802499
+7019983,Study and monitoring of biodiversity in France: Feedbacks on,14:56,15:06,2025-10-22,Wednesday,Valle,oral,Yvan Le Bras,6798633
+7020604,Toward fit-for-purpose urban biodiversity indicators: a,15:01,15:11,2025-10-22,Wednesday,Valle,oral,Evariste Rutebuka,6798633
+7022567,Scaling Data Extraction from Natural History Records with,15:05,15:15,2025-10-22,Wednesday,Ballroom A,oral,Minerva Singh,6786653
+7016621,Integrating plant and seed traits into Institutional collection,15:05,15:15,2025-10-22,Wednesday,Tolima,oral,Udayangani Liu,6803114
+7022902,Contributions to biodiversity data in the Global South:,15:10,15:20,2025-10-22,Wednesday,Ballroom A,oral,Cristiana Silveira Serejo,6786653
+7012673,Anarchy Unveiled: The Current State of “Standards” in,15:15,15:25,2025-10-22,Wednesday,Ballroom A,oral,Juan Manuel Daza,6786653
+7008890,Selecting indicators to track subnational progress towards,15:16,15:26,2025-10-22,Wednesday,Valle,oral,Katherine Hébert,6798633
+7018655,Quality Assurance in Large-Scale Herbarium Transcription:,15:20,15:30,2025-10-22,Wednesday,Ballroom A,oral,Olive Adams,6786653
+7016505,Observatorio de Cambio Global de Sierra Nevada:,16:00,16:10,2025-10-22,Wednesday,Ballroom B1,oral,Andrea Ros Candeira,6803179
+7014783,Strengthening collaboration with data-poor areas of the,16:05,18:05,2025-10-22,Wednesday,Ballroom B2,workshop,Dimitra Mavraki,6803206
+7016917,Capturing and sharing data before your collection is fully,16:10,16:15,2025-10-22,Wednesday,Ballroom A,lightning,Marie Grosjean,6803194
+7019903,Bridging Conservation Technology Gaps Through the,16:10,16:20,2025-10-22,Wednesday,Ballroom B2,oral,Vanesa Reyes,6803206
+7020768,Ascenso y caída del Centro de Datos para la Conservación,16:10,16:20,2025-10-22,Wednesday,Cauca,oral,Antonio  Tovar,6803097
+7020336,The ecocomDP app: lessons learned from a convergence,16:12,16:22,2025-10-22,Wednesday,Ballroom B1,oral,Eric Sokol,6803179
+7020026,Amplifying African Biodiversity Voices through Regional,16:15,16:25,2025-10-22,Wednesday,Ballroom B2,oral,Tsiky Rabetrano,6803206
+7020932,Bridging Conservation and Development: PERU LNG’s Role,16:15,16:25,2025-10-22,Wednesday,Cauca,oral,Bruno Vildoso,6803097
+7020123,Envisioning a resilient model for capacity building in,16:20,16:30,2025-10-22,Wednesday,Ballroom A,oral,Deborah Paul,6803194
+7020052,"Governance of biodiversity monitoring across scales, a",16:20,16:30,2025-10-22,Wednesday,Ballroom B2,oral,Guillaume Body,6803206
+7021010,Building a biodiversity data aggregator to improve,16:20,16:30,2025-10-22,Wednesday,Cauca,oral,Trisha Moriarty,6803097
+7020755,Biodiversity Monitoring in Protected Areas in Brazil: Building,16:23,16:33,2025-10-22,Wednesday,Ballroom B1,oral,RODRIGO JORGE,6803179
+7020435,Building Capacity for Marine Biodiversity Data Sharing:,16:25,18:25,2025-10-22,Wednesday,Ballroom B2,workshop,Ana Carolina Peralta,6803206
+7020651,Tools and skills for the curation of digitised herbaria,16:30,16:40,2025-10-22,Wednesday,Ballroom A,oral,Elspeth Haston,6803194
+7015170,Integrating of global and regional information on direct and,16:36,16:46,2025-10-22,Wednesday,Ballroom B1,oral,Martha Paola Barajas Barbosa,6803179
+7020659,"Developing a standard, open and replicable course",16:40,16:50,2025-10-22,Wednesday,Ballroom A,oral,Laura Anne Russell,6803194
+7014670,Patricia Koleff  (Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) · Mexico),08:45,08:55,2025-10-23,Thursday,Ballroom,oral,Patricia Koleff,
+7108544,Katherine  Tattersall,09:00,09:10,2025-10-23,Thursday,Ballroom,oral,Katherine  Tattersall,
+5074618,Rudolf Meier (Museum für Naturkunde and Humboldt University · Germany),09:15,09:25,2025-10-23,Thursday,Ballroom,oral,Rudolf Meier,
+7020942,"Predictive mapping of a global, zoonotic parasite using",10:45,10:55,2025-10-23,Thursday,Valle,oral,Anna Willoughby,6796861
+7020171,"Monitoring biodiversity for human, animal, and",10:55,11:05,2025-10-23,Thursday,Valle,oral,Francis Banville,6796861
+7013603,GBIF Task Group on Vectors of Human Disease,11:05,11:15,2025-10-23,Thursday,Valle,oral,Quentin Groom,6796861
+7018609,Hacia una vigilancia entomológica integral: sistematización,11:15,11:25,2025-10-23,Thursday,Valle,oral,Soledad Ceccarelli,6796861
+7013119,Biodiversity science and biosurveillance are fellow travelers,11:25,11:35,2025-10-23,Thursday,Valle,oral,Timothée Poisot,6796861
+7020855,WDDS: A Data Standard for Integrated Host-Pathogen,11:35,11:45,2025-10-23,Thursday,Valle,oral,Collin Schwantes,6796861
+7015872,"Wildlife Health Watch: Leveraging Syndromic Surveillance,",11:40,11:50,2025-10-23,Thursday,Valle,oral,Macon Overcast,6796861
+7014643,Why Taxonomic Splits Matter for Bat Biodiversity and Viral,11:50,12:00,2025-10-23,Thursday,Valle,oral,Nathan Upham,6796861
+7020181,A community-of-practice-built database to globally,12:00,12:10,2025-10-23,Thursday,Valle,oral,Luz Dary  Acevedo Cendales,6796861
+7020665,Targeted biodiversity conservation and habitat restoration,12:10,12:20,2025-10-23,Thursday,Valle,oral,Leonardo  Teixeira  Viotti,6796861
+7017181,Principles for sustaining the global biodata infrastructure,14:00,14:10,2025-10-23,Thursday,Ballroom A,oral,Guy Cochrane,6798859
+6803213,World Flora Online: a global catalogue for land plants,14:00,14:10,2025-10-23,Thursday,Ballroom B2,oral,Lauren Raz,
+7015389,"Leveraging AI-integrated, semantic modelling technology",14:00,14:10,2025-10-23,Thursday,Caldas,oral,Ken Bagstad,6802990
+7020448,Building trust to mobilize local biodiversity data:,14:00,14:10,2025-10-23,Thursday,Valle,oral,Ana Belén Hurtado-M,6798921
+7020203,Mobilizing Ocean Observations for Marine Ecosystem,14:05,14:15,2025-10-23,Thursday,Ballroom B1,oral,Erin Satterthwaite,6796407
+7020874,A model for data mobilisation that supports and upholds,14:05,14:15,2025-10-23,Thursday,Tolima,oral,Susanna Ragnhild  A. Siri,6803221
+7013886,A model for the provenance of marine biological samples,14:05,14:15,2025-10-23,Thursday,Caldas,oral,Katrina Exter,6802990
+7020444,Keeping the integrity of platforms with a worldwide scope,14:10,14:20,2025-10-23,Thursday,Ballroom A,oral,Mergen Patricia,6798859
+7013335,Deployment of Essential Ocean Variables through APMBON,14:10,14:20,2025-10-23,Thursday,Ballroom B1,oral,Masahiro Nakaoka,6796407
+7015925,PiWild: Optimising the Raspberry Pi for acoustic monitoring,14:10,14:20,2025-10-23,Thursday,Cauca,oral,Gabriel Kiarie,6799326
+7017010,The marine biodiversity data knowledge gaps in the SW,14:15,14:25,2025-10-23,Thursday,Ballroom B1,oral,Hanieh Saeedi,6796407
+7013572,Embedding Indigenous Data Governance in Global,14:15,14:25,2025-10-23,Thursday,Tolima,oral,Cas Sedran-Price,6803221
+7008943,From Data to Dialogue: A Participatory Approach to,14:15,14:25,2025-10-23,Thursday,Valle,oral,Arturo Tovar,6798921
+7019901,Tracking natural science objects and their physical and,14:16,14:26,2025-10-23,Thursday,Caldas,oral,Jonas Grieb,6802990
+7020486,Individual identification and call type classification with,14:18,14:28,2025-10-23,Thursday,Cauca,oral,Mélisande  Teng,6799326
+7013902,Beyond Boundaries: Strengthening NBDIs Through Shared,14:20,16:20,2025-10-23,Thursday,Ballroom A,symposium,Anton Güntsch,6798859
+7015148,GBR Data Management System: A one-stop shop to Great,14:20,14:30,2025-10-23,Thursday,Ballroom B1,oral,Eduardo Klein Salas,6796407
+7015007,Advancing Marine Biodiversity Knowledge: Integrating,14:25,14:35,2025-10-23,Thursday,Ballroom B1,oral,Vanessa Pitusi,6796407
+7020376,El poder de lo local: aportes del monitoreo comunitario a la,14:25,14:35,2025-10-23,Thursday,Tolima,oral,Maria Helena Olaya Rodriguez,6803221
+7013823,Enabling large-scale acoustic biodiversity data mobilization,14:26,14:36,2025-10-23,Thursday,Cauca,oral,Mao-Ning  Tuanmu,6799326
+7020941,Embedding community participation across the data,14:30,14:40,2025-10-23,Thursday,Ballroom A,oral,Irene Ramos,6798859
+7012006,Lessons learned in developing the Information System,14:30,14:40,2025-10-23,Thursday,Ballroom B1,oral,Brendan HENNEBAUT,6796407
+7021025,Restauración con identidad: Monitoreo comunitario en el,14:30,14:40,2025-10-23,Thursday,Tolima,oral,Bibiana Gómez  Valencia,6803221
+7012812,A GBIF-hosted portal for Germany: Der Lebendige Atlas der,14:30,14:40,2025-10-23,Thursday,Valle,oral,Thore Engel,6798921
+7020085,Bridging the Gap: Simplifying Metadata Flows with an EOV,14:33,14:43,2025-10-23,Thursday,Caldas,oral,Elizabeth Lawrence,6802990
+7020542,Applying FAIR principles to plankton metabarcoding time,14:35,14:45,2025-10-23,Thursday,Ballroom B1,oral,Luke Thompson,6796407
+7020456,Self-Determination and Data: Indigenous Experiences and,14:35,14:45,2025-10-23,Thursday,Tolima,oral,Mabel Fernandes,6803221
+7014612,pamflow: Analysis and standardization for passive acoustic,14:35,14:45,2025-10-23,Thursday,Cauca,oral,Nicolas Betancourt,6799326
+7016474,From Data to Discovery: Building Biodiversity Websites the,14:40,14:50,2025-10-23,Thursday,Ballroom A,oral,Morten Høfft,6798859
+7020263,Empowering Coastal Communities through Marine,14:40,14:50,2025-10-23,Thursday,Ballroom B1,oral,Ning Yen,6796407
+7009148,Embedding Indigenous Data Sovereignty in Environmental,14:40,14:50,2025-10-23,Thursday,Tolima,oral,Cas Sedran-Price,6803221
+7014653,Earth Data Relations: Implementing CARE Principles for,14:45,14:55,2025-10-23,Thursday,Tolima,oral,Katie Jones,6803221
+7018680,Unpacking Data Quality in Citizen Science: An Analysis of,14:45,14:55,2025-10-23,Thursday,Valle,oral,Ram Dayal  Vaishnav,6798921
+7020730,Embedding Provenance into Biodiversity Data: Team-Based,14:46,14:56,2025-10-23,Thursday,Caldas,oral,De-Kai Kao,6802990
+7020059,Working across scales: Shared building-blocks of a,14:50,15:00,2025-10-23,Thursday,Ballroom A,oral,Jutta Buschbom,6798859
+7016064,Entre saberes y tecnología: Gestión de información para la,14:50,15:00,2025-10-23,Thursday,Tolima,oral,CAMILA SOLIS,6803221
+7014678,Ictio: the Amazon fish observation platform,14:50,15:00,2025-10-23,Thursday,Valle,oral,Sannie Brum,6798921
+7015643,Mobilizing bioacoustic data with WildTrax,14:50,15:00,2025-10-23,Thursday,Cauca,oral,Elly Knight,6799326
+7020779,Enhancing Provenance and Interoperability in Biodiversity,14:51,15:01,2025-10-23,Thursday,Caldas,oral,Edward Gilbert,6802990
+7020174,for documenting socio-biodiversity information,14:55,15:05,2025-10-23,Thursday,Tolima,oral,Clara Baringo Fonseca,6803221
+7020950,Integration of Technologies for Information Management,14:55,15:05,2025-10-23,Thursday,Valle,oral,Manuel Rodríguez Rocha,6798921
+7020151,Book Binding for the Digital Age - Format Agnostic Method,14:56,15:06,2025-10-23,Thursday,Caldas,oral,Jorrit Poelen,6802990
+7013770,Fine-Scale Acoustic Monitoring: Grassland Bird Responses,14:58,15:08,2025-10-23,Thursday,Cauca,oral,John Quinn,6799326
+7019803,Connecting the scientific data infrastructure of Natural,15:00,15:10,2025-10-23,Thursday,Ballroom A,oral,Tanja Melanie  Weibulat,6798859
+6798921,Empowering young ocean scientists in Egypt: Enhancing,15:00,15:10,2025-10-23,Thursday,ValleSession: 7007029,oral,Hadeer Elkhouly,
+7019946,Empowering data integration and semantic interoperability,15:05,15:15,2025-10-23,Thursday,Ballroom A,oral,Cristina Di Muri,6798859
+7020041,BioDash : an EBV-based dashboard of European,15:07,15:17,2025-10-23,Thursday,Caldas,oral,Guillaume Body,6802990
+7016866,ELIXIR Biodiversity Community: a consolidated effort to,15:10,15:20,2025-10-23,Thursday,Ballroom A,oral,Joana Paupério,6798859
+7020919,Overcoming the disconnect between species interaction,16:00,16:10,2025-10-23,Thursday,Ballroom B1,oral,Gabriel Dansereau,6803199
+7018648,The Power of Validated Participatory Science Data: Using,16:00,16:10,2025-10-23,Thursday,Caldas,oral,Matt Strimas-Mackey,6803025
+7015555,"Community-Driven, Reproducible, and Scalable EBV",16:05,16:15,2025-10-23,Thursday,Tolima,oral,Jory Griffith,6798685
+7021027,From methods and protocols to event hierarchy: a primer,16:05,16:15,2025-10-23,Thursday,Valle,oral,Kate Ingenloff,6799160
+7020166,Motus Wildlife Tracking System: A Collaborative Network,16:07,16:17,2025-10-23,Thursday,Ballroom A,oral,Catherine Jardine,6803172
+7020724,Machine-Actionable Metadata in Practice: Lessons from,16:12,16:22,2025-10-23,Thursday,Ballroom B1,oral,Debora Drucker,6803199
+7018540,From Shore to Server: Connecting Marine Civic Science to,16:12,16:22,2025-10-23,Thursday,Caldas,oral,Chloe Figueroa  Ashforth,6803025
+7019843,Ready to move: mobilizing animal tracking data,16:14,16:24,2025-10-23,Thursday,Ballroom A,oral,Sarah Davidson,6803172
+7019963,French BON EBV operationalization pilot: Reusing existing,16:20,16:30,2025-10-23,Thursday,Tolima,oral,Yvan Le Bras,6798685
+7013731,Structuring biological survey metadata for reuse:,16:20,16:30,2025-10-23,Thursday,Valle,oral,Stijn Cooleman,6799160
+7015376,Hold the Data: A Call to Prevent Biodiversity Knowledge,16:23,16:33,2025-10-23,Thursday,Ballroom B1,oral,Maite Telletxea,6803199
+7017830,Geographic redistributions are insufficient to mitigate,16:23,16:33,2025-10-23,Thursday,Caldas,oral,Jeremy Cohen,6803025
+7005380,"How we plan to publish 1,000 bio-logging datasets to GBIF",16:26,16:36,2025-10-23,Thursday,Ballroom A,oral,Peter Desmet,6803172
+7021022,Optimizing the use of participatory monitoring data to,16:30,16:40,2025-10-23,Thursday,Tolima,oral,Andres Felipe Suarez Castro,6798685
+7020887,Shrinking Wild Spaces: Connecting Home Ranges and,16:33,16:43,2025-10-23,Thursday,Ballroom A,oral,Samara Manzin,6803172
+7020027,Application of Darwin Core on biodiversity monitoring,16:33,16:43,2025-10-23,Thursday,Valle,oral,Guillaume Body,6799160
+7013825,Advancing Biodiversity Monitoring through the EBV,16:35,16:45,2025-10-23,Thursday,Tolima,oral,Yayoi Takeuchi,6798685
+7016104,SISBia: An Optimized System for Ecological Data,16:36,16:46,2025-10-23,Thursday,Ballroom B1,oral,RODRIGO KOBLITZ,6803199
+7020870,Adaptive citizen science: Spatially targeting recording effort,16:36,16:46,2025-10-23,Thursday,Caldas,oral,Michael Pocock,6803025
+7019865,Leveraging linear green infrastructure for biodiversity,16:40,16:50,2025-10-23,Thursday,Ballroom A,oral,Job Aben,6803172
+7020853,Unlocking Animal Movement Data for Conservation in Peru:,16:46,16:56,2025-10-23,Thursday,Ballroom A,oral,Ximena Velez-Zuazo,6803172
+7020142,Assessment of Brazilian biodiversity data,16:47,16:57,2025-10-23,Thursday,Ballroom B1,oral,Leonardo Lima Bergamini,6803199
+7020583,A new platform to build and support citizen science,16:47,16:57,2025-10-23,Thursday,Caldas,oral,Andrea Tarallo,6803025
+7010151,Mapping nested vegetation plot data to Darwin Core and,16:47,16:57,2025-10-23,Thursday,Valle,oral,Salza Palpurina,6799160
+7020438,Bridging the Data-Policy Gap: Integrating Spatiotemporal,16:55,17:05,2025-10-23,Thursday,Ballroom A,oral,Bill DeLuca,6803172
+7020433,Linking Essential Biodiversity Variables to GBF Indicators,16:55,17:05,2025-10-23,Thursday,Tolima,oral,Elnaz Neinavaz,6798685
+7020189,Legal Reserves as Conservation Assets: Integrating,17:00,17:10,2025-10-23,Thursday,Ballroom B1,oral,Keila Macfadem. Juarez,6803199
+7019770,Towards an Integrated Coastal Observation System in,17:00,17:10,2025-10-23,Thursday,Tolima,oral,Clémence Cotten,6798685
+7013587,Citizen Science to the Grassroots: Taking Biodiversity Data,17:00,17:10,2025-10-23,Thursday,Caldas,oral,Babajide  Agboola,6803025
+7020705,Lessons from Census and Trawl-Based Marine Datasets,17:02,17:12,2025-10-23,Thursday,Valle,oral,Yi-Ming Gan,6799160
+7014867,Addressing bottlenecks in EBV generation in Europe:,17:05,17:15,2025-10-23,Thursday,Tolima,oral,Maria Blasi,6798685
+7020176,Integridad ecológica de ecosistemas de agua dulce:,17:11,17:21,2025-10-23,Thursday,Ballroom B1,oral,Alejandra Narvaez  Vallejo,6803199
+7020774,BiodivBank: a streamlined solution facilitating FAIR and,17:15,17:25,2025-10-23,Thursday,Valle,oral,Anahita J.N. Kazem,6799160
+6798998,Reimagining biodiversity monitoring: Integrating diverse,10:45,10:55,2025-10-24,Friday,Ballroom B1,oral,Isaac Eckert,
+7020786,Improving data interoperability for invasive alien species:,10:45,10:55,2025-10-24,Friday,Ballroom B2,oral,Lien Reyserhove,6799115
+6796507,Portales Symbiota para la Integración de Información de,10:50,11:00,2025-10-24,Friday,Ballroom A,oral,K. Samanta Orellana,
+7020677,The business case for investing in biodiversity data,10:50,11:00,2025-10-24,Friday,Tolima,oral,Fevziye Hasan,6821915
+7014906,Engaging the ERGA community on the concept of non-,10:50,11:00,2025-10-24,Friday,Valle,oral,Robert Waterhouse,6799392
+7019867,"From local to continental: upscaling reproducible, open",10:55,11:05,2025-10-24,Friday,Ballroom B2,oral,Quentin Groom,6799115
+7020324,Unlocking Access: Findings from the Piloting of a Nature,11:00,11:10,2025-10-24,Friday,Tolima,oral,Sean Donnelly,6821915
+7009078,A Human Rights Approach to Benefit Sharing from the Use,11:00,11:10,2025-10-24,Friday,Valle,oral,Alex Reep,6799392
+7020580,DASCO: A workflow to integrate checklists and coordinate-,11:05,11:15,2025-10-24,Friday,Ballroom B2,oral,Hanno Seebens,6799115
+7021018,DSIS OF FLORA LOCATED IN BRAZILIAN Indigenous,11:05,11:15,2025-10-24,Friday,Valle,oral,Denise Leal,6799392
+7020976,Assessing the direct impacts of businesses on biodiversity,11:10,11:20,2025-10-24,Friday,Tolima,oral,Karel Mokany,6821915
+7020754,Food Composition Data as a Global Public Good: Access &,11:10,11:20,2025-10-24,Friday,Valle,oral,Sarah Brinkley,6799392
+7020798,Co-developing a unified framework for reporting invasive,11:15,11:25,2025-10-24,Friday,Ballroom B2,oral,Nigel Taylor,6799115
+7016063,Multi case study analysis of justice considerations in,11:15,11:25,2025-10-24,Friday,Valle,oral,Bob Kreiken,6799392
+7020248,Data-driven nature-based solutions: a case study to,11:20,11:30,2025-10-24,Friday,Tolima,oral,Viviana Ruiz-Gutierrez,6821915
+7020587,Everywhere everyone everything all at once: Integrating,11:20,11:30,2025-10-24,Friday,Valle,oral,Jutta Buschbom,6799392
+7020771,Microbes as Ecosystem Sensors,11:25,11:35,2025-10-24,Friday,Valle,oral,Maria M. Zambrano,6799392
+7020620,Mobilization of Biodiversity Data for Invasive Species,11:30,11:40,2025-10-24,Friday,Ballroom B2,oral,Cristina Preda,6799115
+7019852,Bringing data from the North Sea back to life: Ecosystem-,11:30,11:40,2025-10-24,Friday,Tolima,oral,Verena Schrameyer,6821915
+7015143,Datos abiertos para la gestión de impactos en peces en,11:35,11:45,2025-10-24,Friday,Tolima,oral,Andres Felipe Galeano Moreno,6821915
+7006840,Mobilizing large scale metabarcoding datasets in,11:35,11:45,2025-10-24,Friday,Valle,oral,Jonathan Ready,6799392
+7020072,Del dato al impacto: visualizando oportunidades,11:40,11:50,2025-10-24,Friday,Tolima,oral,Henry Alterio,6821915
+7020679,Challenges of Marine Alien Species Data,11:45,11:55,2025-10-24,Friday,Ballroom B2,oral,Eduardo  Arlé,6799115
+7020987,Empowering the businesses sector to share biodiversity,11:45,11:55,2025-10-24,Friday,Tolima,oral,Dairo Escobar,6821915
+7020600,Towards Scalable and Comparable Genome Analysis for,11:45,11:55,2025-10-24,Friday,Valle,oral,Camila Mazzoni,6799392
+7022382,Datos abiertos sobre biodiversidad en EPM: una,11:55,12:05,2025-10-24,Friday,Tolima,oral,Yesenia García Morera,6821915
+7013319,Modelling trends in biological invasion for policy reporting,12:00,12:10,2025-10-24,Friday,Ballroom B2,oral,MELODIE MCGEOCH,6799115
+7019971,The use and publication of open biodiversity data in the,12:05,12:15,2025-10-24,Friday,Tolima,oral,Cédric Elleboode,6821915
+7019818,Standardizing and Integrating Alien Species distribution,12:15,12:25,2025-10-24,Friday,Ballroom B2,oral,Manuela Gómez-Suárez,6799115
+7022380,Movilización de datos abiertos sobre biodiversidad desde,12:15,12:25,2025-10-24,Friday,Tolima,oral,Wilmar López Oviedo,6821915
+7020020,El Sueño de Chocolate: Monitoreo Comunitario para,12:20,12:30,2025-10-24,Friday,Tolima,oral,Andrea Camacho,6821915
+7020981,El sector financiero y privado como motores para la,12:25,12:35,2025-10-24,Friday,Tolima,oral,Juliana Acuña,6821915
+7017470,Adapting a globally-trained single-species plant,12:30,12:40,2025-10-24,Friday,Ballroom B2,oral,Hervé Goëau,6799115
+6821915,LIGHTNING TALK · ES,12:30,12:35,2025-10-24,Friday,Tolima,lightning,,
+7020221,20 years of The Camisea Biodiversity Monitoring Program in,12:35,12:45,2025-10-24,Friday,Tolima,oral,Catherine Sahley,6821915
+7020284,Expanding Access: Reflections on the French Translation of,14:00,14:10,2025-10-24,Friday,Caldas,oral,Elie M. Saliba,6798214
+7018533,Bridging Language Barriers: Lessons from the French,14:07,14:17,2025-10-24,Friday,Caldas,oral,Elie M. Saliba,6798214
+7013927,Tools that Speak Your Language: A Multilingual Approach to,14:14,14:24,2025-10-24,Friday,Caldas,oral,Melissa Jean-Yi Liu,6798214
+7020392,Translate to Focus on What Really Matters: Our Biodiversity,14:23,14:33,2025-10-24,Friday,Caldas,oral,Camila Plata,6798214
+7017146,Translating Darwin Core and other TDWG standards using,14:33,14:43,2025-10-24,Friday,Caldas,oral,Matthew  Blissett,6798214
