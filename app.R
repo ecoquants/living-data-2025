@@ -1,9 +1,9 @@
 librarian::shelf(
-  bsicons, bslib, dplyr, DT, glue, jsonlite, lubridate, readr, shiny, stringr, tidyr)
+  bsicons, bslib, dplyr, DT, glue, here, jsonlite, lubridate, readr, shiny, stringr, tidyr)
 
 # Read both JSON files
-abstracts <- fromJSON("Abstracts.json")
-sessions  <- fromJSON("Sessions.json")
+abstracts <- fromJSON(here("data/Abstracts.json"))
+sessions  <- fromJSON(here("data/Sessions.json"))
 
 # Prepare sessions data
 sessions_clean <- sessions |>
@@ -218,7 +218,7 @@ server <- function(input, output, session) {
 
   # Reactive values
   # saved_file ----
-  saved_file <- "my_schedule_selections.rds"
+  saved_file <- here("data/my_schedule_selections.rds")
   initial_selection <- if (file.exists(saved_file)) {
     readRDS(saved_file)
   } else {
