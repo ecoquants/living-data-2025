@@ -1,5 +1,15 @@
 librarian::shelf(
-  bsicons, bslib, dplyr, DT, glue, here, jsonlite, lubridate, readr, shiny, stringr, tidyr)
+  bsicons, bslib, dplyr, DT, glue, here, jsonlite, lubridate, readr,
+  shiny, shinyauthr, sodium, stringr, tidyr, quiet = T)
+
+# user credentials ----
+user_base <- data.frame(
+  user      = c("ben", "erin"),
+  password  = c("p@ss", "p@ss"),
+  password_hash = sapply(c("p@ss", "p@ss"), sodium::password_store),
+  permissions  = c("admin", "admin"),
+  name      = c("Ben", "Erin"),
+  stringsAsFactors = FALSE)
 
 # Read both JSON files
 abstracts <- fromJSON(here("data/Abstracts.json"))
@@ -83,6 +93,9 @@ schedule <- abstracts |>
 ui <- fluidPage(
   theme = bslib::bs_theme(version = 5, bootswatch = "cosmo"),
 
+  # login panel from shinyauthr
+  shinyauthr::loginUI(id = "login"),
+
   # Add custom CSS and JavaScript for modal
   tags$head(
     tags$style(HTML("
@@ -136,6 +149,12 @@ ui <- fluidPage(
     "))
   ),
 
+  # main content (only visible when logged in)
+  uiOutput("main_content")
+)
+
+# main_ui ----
+main_ui <- tagList(
   titlePanel("Living Data 2025 - Personal Schedule Builder"),
 
   bslib::page_sidebar(
@@ -182,7 +201,8 @@ ui <- fluidPage(
 
           textOutput("selected_count"), br(),
           downloadButton("download_schedule", "Download My Schedule", class = "w-100"), br(), br(),
-          actionButton("clear_selection", "Clear All Selections", class = "btn-warning w-100")
+          actionButton("clear_selection", "Clear All Selections", class = "btn-warning w-100"), br(), br(),
+          shinyauthr::logoutUI(id = "logout")
         )
       )
     ),
@@ -212,19 +232,53 @@ ui <- fluidPage(
         )
       )
     )
-  ))
+  )
+)
 
 server <- function(input, output, session) {
 
+  # authentication ----
+  credentials <- shinyauthr::loginServer(
+    id = "login",
+    data = user_base,
+    user_col = user,
+    pwd_col = password_hash,
+    sodium_hashed = TRUE,
+    log_out = reactive(logout_init()))
+
+  logout_init <- shinyauthr::logoutServer(
+    id = "logout",
+    active = reactive(credentials()$user_auth))
+
+  # render main content only when logged in ----
+  output$main_content <- renderUI({
+    req(credentials()$user_auth)
+    main_ui
+  })
+
   # Reactive values
-  # saved_file ----
-  saved_file <- here("data/my_schedule_selections.rds")
-  initial_selection <- if (file.exists(saved_file)) {
-    readRDS(saved_file)
-  } else {
-    c()
-  }
-  selected_events <- reactiveVal(initial_selection)
+  # saved_file (user-specific) ----
+  saved_file <- reactive({
+    req(credentials()$user_auth)
+    here(glue("data/{credentials()$info$user}_schedule.rds"))
+  })
+
+  initial_selection <- reactive({
+    req(credentials()$user_auth)
+    if (file.exists(saved_file())) {
+      readRDS(saved_file())
+    } else {
+      c()
+    }
+  })
+
+  selected_events <- reactiveVal(c())
+
+  # initialize selected_events when user logs in
+  observe({
+    req(credentials()$user_auth)
+    selected_events(initial_selection())
+  })
 
   # filtered_schedule ----
   filtered_schedule <- reactive({
@@ -564,7 +618,8 @@ server <- function(input, output, session) {
 
   # Auto-save selection whenever it changes
   observeEvent(selected_events(), {
-    saveRDS(selected_events(), saved_file)
+    req(credentials()$user_auth)
+    saveRDS(selected_events(), saved_file())
   }, ignoreNULL = FALSE)  # Allow saving empty selections
 
   # Clear selection
