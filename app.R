@@ -1,9 +1,6 @@
 librarian::shelf(
-  bsicons, bslib, dplyr, DT, glue, here, jsonlite, lubridate, readr,
-  shiny, shinyauthr, sodium, stringr, tidyr, quiet = T)
-
-# cookie key for authentication ----
-cookie_key <- "living_data_2025_auth_cookie_key_12345"
+  bsicons, bslib, DBI, dplyr, DT, glue, here, jsonlite, lubridate, readr,
+  RSQLite, shiny, shinyauthr, sodium, stringr, tidyr, quiet = T)
 
 # user credentials ----
 user_base <- data.frame(
@@ -13,6 +10,35 @@ user_base <- data.frame(
   permissions  = c("admin", "admin"),
   name      = c("Ben", "Erin"),
   stringsAsFactors = FALSE)
+
+# cookie authentication database ----
+db_path <- here("data/sessions.sqlite")
+db <- dbConnect(SQLite(), db_path)
+
+if (!dbExistsTable(db, "sessionids")) {
+  dbCreateTable(db, "sessionids",
+    c(user = "TEXT", sessionid = "TEXT", login_time = "TEXT"))
+}
+
+cookie_expiry <- 30  # days
+
+# save session after successful login
+add_sessionid_to_db <- function(user, sessionid, conn = db) {
+  session_data <- tibble(
+    user       = user,
+    sessionid  = sessionid,
+    login_time = as.character(now()))
+
+  dbWriteTable(conn, "sessionids", session_data, append = TRUE)
+}
+
+# retrieve active sessions (filter by expiry date)
+get_sessionids_from_db <- function(conn = db, expiry = cookie_expiry) {
+  dbReadTable(conn, "sessionids") |>
+    mutate(login_time = ymd_hms(login_time)) |>
+    as_tibble() |>
+    filter(login_time > now() - days(expiry))
+}
 
 # Read both JSON files
 abstracts <- fromJSON(here("data/Abstracts.json"))
@@ -160,38 +186,6 @@ ui <- fluidPage(
         text-shadow: 0 0 3px rgba(255, 215, 0, 0.5);
       }" )),
     tags$script(HTML("
-      // cookie handling functions
-      function setCookie(name, value, days) {
-        var expires = '';
-        if (days) {
-          var date = new Date();
-          date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-          expires = '; expires=' + date.toUTCString();
-        }
-        document.cookie = name + '=' + (value || '') + expires + '; path=/; SameSite=Strict';
-      }
-
-      function getCookie(name) {
-        var nameEQ = name + '=';
-        var ca = document.cookie.split(';');
-        for(var i = 0; i < ca.length; i++) {
-          var c = ca[i];
-          while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-        }
-        return null;
-      }
-
-      function deleteCookie(name) {
-        document.cookie = name + '=; Max-Age=-99999999; path=/;';
-      }
-
-      // send cookie to shiny on startup
-      $(document).on('shiny:connected', function() {
-        var cookie = getCookie('living_data_auth');
-        Shiny.setInputValue('cookie', cookie);
-      });
-
       // Update star icon when toggle_selection changes
       $(document).on('shiny:inputchanged', function(event) {
         if (event.name === 'toggle_selection') {
@@ -304,31 +298,7 @@ main_ui <- tagList(
 
 server <- function(input, output, session) {
 
-  # cookie-based authentication ----
-  cookie_user <- reactiveVal(NULL)
-
-  # check cookie on startup
-  observeEvent(input$cookie, {
-    if (!is.null(input$cookie) && input$cookie != "") {
-      # decrypt and validate cookie
-      tryCatch({
-        decrypted <- sodium::bin2hex(sodium::simple_decrypt(
-          sodium::hex2bin(input$cookie),
-          sodium::hash(charToRaw(cookie_key))))
-
-        # extract username and check if valid
-        username <- rawToChar(sodium::hex2bin(decrypted))
-        if (username %in% user_base$user) {
-          cookie_user(username)
-        }
-      }, error = function(e) {
-        # invalid cookie, ignore
-        cookie_user(NULL)
-      })
-    }
-  }, once = TRUE)
-
-  # authentication ----
+  # authentication with cookie support ----
   credentials <- shinyauthr::loginServer(
     id = "login",
     data = user_base,
@@ -337,35 +307,13 @@ server <- function(input, output, session) {
     sodium_hashed = TRUE,
     log_out = reactive(logout_init()),
     cookie_logins = TRUE,
-    sessionid = cookie_user)
+    cookie_getter = get_sessionids_from_db,
+    cookie_setter = add_sessionid_to_db,
+    sessionid_col = sessionid)
 
   logout_init <- shinyauthr::logoutServer(
     id = "logout",
     active = reactive(credentials()$user_auth))
-
-  # set cookie on successful login ----
-  observeEvent(credentials()$user_auth, {
-    if (credentials()$user_auth) {
-      # encrypt username and store in cookie
-      username <- credentials()$info$user
-      encrypted <- sodium::bin2hex(sodium::simple_encrypt(
-        charToRaw(username),
-        sodium::hash(charToRaw(cookie_key))))
-
-      # set cookie for 30 days
-      session$sendCustomMessage(
-        type = "eval",
-        message = glue("setCookie('living_data_auth', '{encrypted}', 30);"))
-    }
-  })
-
-  # clear cookie on logout ----
-  observeEvent(logout_init(), {
-    cookie_user(NULL)
-    session$sendCustomMessage(
-      type = "eval",
-      message = "deleteCookie('living_data_auth');")
-  })
 
   # render main content only when logged in ----
   output$main_content <- renderUI({
