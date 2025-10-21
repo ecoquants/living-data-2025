@@ -15,6 +15,38 @@ user_base <- data.frame(
 abstracts <- fromJSON(here("data/Abstracts.json"))
 sessions  <- fromJSON(here("data/Sessions.json"))
 
+# add sessions without abstracts (Panel, Plenary, Workshop) ----
+sessions_without_abstracts <- sessions |>
+  filter(
+    Session_Type %in% c("Panel", "Plenary", "Workshop"),
+    !Session_ID %in% abstracts$Session_ID) |>
+  mutate(
+    Presentation_Time = Start_Time,
+    Talk_Duration    = as.numeric(difftime(
+      ymd_hms(paste(Date, End_Time)),
+      ymd_hms(paste(Date, Start_Time)),
+      units = "mins")),
+    Abstract_Title   = Session_Title,
+    Presenter_Name   = sapply(Session_Organizers, function(x) {
+      if (is.null(x) || length(x) == 0) return(NA_character_)
+      if (length(x) > 1) paste(unlist(x), collapse = ", ")
+      else as.character(x)
+    }),
+    Presentation_Type = Session_Type,
+    Organization     = NA_character_,
+    Country          = NA_character_,
+    Language         = "en",
+    Abstract_Body    = ifelse(
+      is.na(Session_Abstract) | Session_Abstract == "null" | Session_Abstract == "",
+      "", Session_Abstract)) |>
+  select(
+    Session_ID, Presentation_Time, Talk_Duration,
+    Abstract_Title, Presenter_Name, Presentation_Type,
+    Organization, Country, Language, Abstract_Body)
+
+# combine abstracts with sessions without abstracts
+abstracts_combined <- bind_rows(abstracts, sessions_without_abstracts)
+
 # Prepare sessions data
 sessions_clean <- sessions |>
   select(
@@ -31,7 +63,7 @@ sessions_clean <- sessions |>
     Organisation_theme)
 
 # Join abstracts with sessions
-schedule <- abstracts |>
+schedule <- abstracts_combined |>
   left_join(sessions_clean, by = "Session_ID") |>
   mutate(
     # Create datetime from session date and presentation time
